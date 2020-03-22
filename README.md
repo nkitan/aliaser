@@ -7,7 +7,6 @@ this is a python script wrapped in a shell script which lets you add an alias to
 -setup-
  set the shell script as executable and run it!
 
-->
 
- $ chmox +x src.sh                                                                                                            
- $ ./src.sh
+   chmod +x src.sh                                                                                                            
+   ./src.sh
