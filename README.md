@@ -9,5 +9,5 @@ this is a python script wrapped in a shell script which lets you add an alias to
 
 ->
 
- $ chmox +x src.sh
+ $ chmox +x src.sh                                                                                                            
  $ ./src.sh
