@@ -18,10 +18,12 @@ fi
 
 if [ "$decider" == '1' ]
 then    
+     echo "source .aliases" >> ~/.zshrc
      source ~/.zshrc
      echo "Installed Successfully"
 elif [ "$decider" == '2' ]
 then
+      echo "source .aliases" >> ~/.bashrc
       source ~/.bashrc
       echo "Installed Successfully"
 fi      
