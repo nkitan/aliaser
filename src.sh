@@ -31,5 +31,6 @@ fi
 
 
 touch ~/.aliases
+echo "alias aliaser='cd ~/aliaser/ && ./src.sh'" >> ~/.aliases
 python3 aliaser.py
 validor
