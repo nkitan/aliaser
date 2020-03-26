@@ -10,3 +10,5 @@ this is a python script wrapped in a shell script which lets you add an alias to
 
    chmod +x src.sh                                                                                                            
    ./src.sh
+   
+   after initial run, script can be called by simply using aliaser as a command
