@@ -19,17 +19,17 @@ fi
 if [ "$decider" == '1' ]
 then    
      echo "source .aliases" >> ~/.zshrc
-     source ~/.zshrc
-     echo "Installed Successfully"
+     source ~/.zshrc && echo "Installed Successfully"
+     
 elif [ "$decider" == '2' ]
 then
       echo "source .aliases" >> ~/.bashrc
-      source ~/.bashrc
-      echo "Installed Successfully"
+      source ~/.bashrc && echo "Installed Successfully"
+      
 fi      
 }
 
 
-
+touch ~/.aliases
 python3 aliaser.py
 validor
