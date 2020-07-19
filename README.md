@@ -13,6 +13,7 @@ SETUP
  2.$> ./install.sh
    
 after installation, run the program using 'aliaser'
+
 $> aliaser
 
 examples of good aliases can be
