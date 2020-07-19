@@ -26,4 +26,4 @@ sudo mv run.sh $HOME/aliaser/
 echo "alias aliaser='cd $HOME/aliaser/ && ./run.sh'" >> $HOME/.aliases
 chmod +x $HOME/aliaser/run.sh
 validor
-echo "try running aliaser by typing 'aliaser'"
+echo "restart your shell and try running aliaser by typing 'aliaser'"
