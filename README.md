@@ -13,6 +13,7 @@ SETUP
  2.$> ./install.sh
    
 after installation restart your shell and run the program using 'aliaser'
+
 *requires restart of shell after adding new aliases
 
 $> aliaser
