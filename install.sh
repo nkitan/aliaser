@@ -17,8 +17,11 @@ function validor()
  fi
 }
 
-cd $HOME
 touch $HOME/.aliases
+
+sudo mv aliaser.py $HOME/aliaser/aliaser.py
+sudo mv run.sh $HOME/aliaser/run.sh
+
 echo "alias aliaser='cd $HOME/aliaser/ && ./run.sh'" >> $HOME/.aliases
 chmod +x $HOME/aliaser/run.sh
 validor
