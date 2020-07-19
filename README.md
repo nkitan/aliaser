@@ -8,7 +8,9 @@ SETUP
 -----
 
  set the shell script as executable and run it!
- $> chmod +x src.sh                                                                                                            
+ 
+ $> chmod +x src.sh 
+ 
  $> ./src.sh
    
 after initial run, script can be called by simply using aliaser as a command
