@@ -17,6 +17,7 @@ function validor()
  fi
 }
 
+cd $HOME
 touch $HOME/.aliases
 echo "alias aliaser='cd $HOME/aliaser/ && ./run.sh'" >> $HOME/.aliases
 chmod +x $HOME/aliaser/run.sh
