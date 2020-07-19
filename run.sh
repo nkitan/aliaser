@@ -6,5 +6,5 @@ python3 aliaser.py
        
  elif [ -n "`$SHELL -c 'echo $BASH_VERSION'`" ]
  then
-      source $HOME1/.bashrc
+      source $HOME/.bashrc
  fi
