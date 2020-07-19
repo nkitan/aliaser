@@ -9,10 +9,11 @@ SETUP
 
  set the shell script as executable and run it!
  
- 1.$> chmod +x src.sh                                                           
- 2.$> ./src.sh
+ 1.$> chmod +x install.sh                                                           
+ 2.$> ./install.sh
    
-after initial run, script can be called by simply using aliaser as a command
+after installation, run the program using 'aliaser'
+$> aliaser
 
 examples of good aliases can be
 1.  Key: ls , Value : ls --color=auto 
