@@ -3,6 +3,7 @@ import os
 
 
 debug = False
+
 print("alias- ",end = '')
 aliasName = str(input())
 
@@ -17,8 +18,8 @@ else:
     file=open(os.path.expanduser("~/temp/.aliases"),"a")    
 
 alias = "\n" + "alias " + aliasName + "='" + str(cmd) + "'"
-
 file.write(alias)
+
 
 
 
