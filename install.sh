@@ -33,6 +33,6 @@ fi
 
 
 touch ~/.aliases
-echo "alias aliaser='cd ~/aliaser/ && python3 aliaser.py'" >> ~/.aliases
+echo "alias aliaser='cd ~/aliaser/ && ./run.sh'" >> ~/.aliases
 validor
 echo "Installation Successfull! try running aliaser by typing 'aliaser'"
