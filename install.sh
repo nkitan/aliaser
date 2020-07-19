@@ -2,14 +2,14 @@ function validor()
 {
  if [ -n "`$SHELL -c 'echo $ZSH_VERSION'`" ]
  then                         
-     echo "source .aliases" >> ~/.zshrc
-     source ~/.zshrc 
+     echo "source $HOME/.aliases" >> $HOME/.zshrc
+     source $HOME/.zshrc 
      echo "Installed Successfully on zsh"
     
  elif [ -n "`$SHELL -c 'echo $BASH_VERSION'`" ]
  then
-      echo "source .aliases" >> ~/.bashrc
-      source ~/.bashrc
+      echo "source $HOME/.aliases" >> $HOME/.bashrc
+      source $HOME/.bashrc
       echo "Installed Successfully on bash"
         
  else
@@ -17,7 +17,8 @@ function validor()
  fi
 }
 
-touch ~/.aliases
-echo "alias aliaser='cd ~/aliaser/ && ./run.sh'" >> ~/.aliases
+touch $HOME/.aliases
+echo "alias aliaser='cd $HOME/aliaser/ && ./run.sh'" >> $HOME/.aliases
+chmod +x $HOME/aliaser/run.sh
 validor
 echo "try running aliaser by typing 'aliaser'"
