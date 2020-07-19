@@ -20,4 +20,4 @@ function validor()
 touch ~/.aliases
 echo "alias aliaser='cd ~/aliaser/ && ./run.sh'" >> ~/.aliases
 validor
-echo "Installation Successfull! try running aliaser by typing 'aliaser'"
+echo "try running aliaser by typing 'aliaser'"
