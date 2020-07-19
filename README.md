@@ -12,7 +12,7 @@ SETUP
  1.$> chmod +x install.sh                                                           
  2.$> ./install.sh
    
-after installation, run the program using 'aliaser'
+after installation restart your shell and run the program using 'aliaser'
 
 $> aliaser
 
