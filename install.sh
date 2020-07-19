@@ -1,15 +1,17 @@
 function validor()
 {
+
+var decider = 0
+
 if [ -n "`$SHELL -c 'echo $ZSH_VERSION'`" ]
-then                         #Check sh version
-     #assume Zsh    
-         local decider=1
+then                         
+    decider=1
+    
 elif [ -n "`$SHELL -c 'echo $BASH_VERSION'`" ]
 then
-      # assume Bash
-        local decider=2
+        decider=2
+        
 else
-   # assume something else
        echo "Unknown SHELL!!! try contacting https://github.com/nkitan "      # you can try adding your own sh's, feel free.
 fi
 
@@ -31,6 +33,6 @@ fi
 
 
 touch ~/.aliases
-echo "alias aliaser='cd ~/aliaser/ && ./src.sh'" >> ~/.aliases
-python3 aliaser.py
+echo "alias aliaser='cd ~/aliaser/ && python3 aliaser.py'" >> ~/.aliases
 validor
+echo "Installation Successfull! try running aliaser by typing 'aliaser'"
