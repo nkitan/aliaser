@@ -9,14 +9,12 @@ SETUP
 
  set the shell script as executable and run it!
  
- 1.$> chmod +x install.sh                                                           
- 2.$> ./install.sh
+ 1.`chmod +x install.sh`                                                            
+ 2.`./install.sh`  
    
 after installation restart your shell and run the program using 'aliaser'
-
 *requires restart of shell after adding new aliases
-
-$> aliaser
+`aliaser`  
 
 examples of good aliases can be
 1.  Key: ls , Value : ls --color=auto 
